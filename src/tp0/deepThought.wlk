@@ -1,3 +1,3 @@
 object deepThought {
-	method laRespuesta() = 42
+	method laRespuesta() = "???"
 }
