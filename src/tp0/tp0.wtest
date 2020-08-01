@@ -1,0 +1,7 @@
+import deepThought.*
+
+describe "La respuesta" {
+	test "... a la vida, el universo y todo lo demas ..." {
+		assert.equals(42, deepThought.laRespuesta())
+	}
+}
