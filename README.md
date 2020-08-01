@@ -1,0 +1,1 @@
+# base-mini-tps-objetos
