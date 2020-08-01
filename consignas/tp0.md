@@ -53,7 +53,7 @@ Al igual que como hiciste anteriormente para funcional y lógico... ni cambiamos
 
 2. Una vez que tengas tu entorno preparado, corré las pruebas como se indica en la sección **Cómo ejecutar la solución** del `README.md` que se encuentra en la raíz del proyecto (vale correr sólo las del TP0 o las de todo el proyecto, al haber sólo un TP el resultado será el mismo).
 
-   Asegurate de que el test del TP0 **falle**, ya que todavía no se implementó lo necesario en el archivo `src/tp0/deepThought.wlk` para que pasen.
+   Asegurate de que el test del TP0 **falle**, ya que todavía no se implementó lo necesario en el archivo `src/tp0/deepThought.wlk` para que pase.
 
    Debería mostrarse el resultado de haber corrido las pruebas, incluyendo algo como esto:
    
