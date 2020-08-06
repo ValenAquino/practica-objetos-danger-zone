@@ -110,6 +110,10 @@ Al igual que en los otros trabajos, deberías subir tu solución a GitHub. En ve
 2. Commitear tus cambios con un mensaje representativo y pushearlos al repo remoto:
    
    ![Commit and push](imagenes/TP0/sgit-commit-and-push.jpg)
+   
+   > La primera vez que commitees con un autor que no tengas configurado te va a pedir el mail únicamente. Es para una configuración local de git, no es muy relevante.
+   >
+   > ![Author](imagenes/TP0/sgit-first-commit.jpg)
 
 Ya sabés que podés subir tu solución tantas veces como quieras. **Es recomendable hacer commits chicos y frecuentes**, en vez de un solo gran commit con todo lo que se pedía resolver.
 
