@@ -22,14 +22,14 @@ En Wollok se puede correr la solución de varias formas:
 
 - Para hacer pruebas manuales seleccionando el archivo `.wlk` y usando la opción **Ejecutar como -> Launch with REPL**:
 
-![Launch with REPL](https://d33wubrfki0l68.cloudfront.net/df54b7e3b3e91811fd2b5668a62e2941b54ca457/d08f6/images/tour/consolaes.gif)
+![Launch with REPL](https://d33wubrfki0l68.cloudfront.net/f5fc2749e6bae5af90b1a9295cb13941f803a4ce/0ef93/images/tour/consoleintroes.gif)
 
-- Para correr los tests de un TP, seleccionando el archivo `.wtest` y usando la opción **Ejecutar como -> Launch with REPL**:
+- Para correr los tests de un TP, seleccionando el archivo `.wtest` y usando la opción **Ejecutar como -> Ejecutar Tests de Wollok**:
 
-![Run tests](https://d33wubrfki0l68.cloudfront.net/01143f999c6c185b4defc094235b9bbee57f2880/21087/images/tour/testrunner2.gif)
+![Run tests](https://d33wubrfki0l68.cloudfront.net/e5bd31e55f66cf2e605d1d89563bfaefcbaf692b/bb328/images/tour/testrunnerintroes.gif)
 
-- Para correr todos los tests del proyecto, seleccionando el proyecto y usando la opción **Ejecutar como -> All Wollok Tests in this project**:
+- Para correr todos los tests del proyecto, seleccionando el proyecto y usando la opción **Ejecutar como -> Ejecutar todos los Tests de Wollok desde este punto**:
 
-![All Wollok Tests](https://d33wubrfki0l68.cloudfront.net/2989863edf92aed95cb83aa187e9d399b123bf03/5333a/images/tour/testrunneralltests.gif)
+![All Wollok Tests](https://d33wubrfki0l68.cloudfront.net/15d835ed544cab381623621affcb8ec899d81e87/a930f/images/tour/testrunnerrunningseveralfileses.gif)
 
-Para más información, podés ver las secciones **Consola** y **Test runner** del sitio oficial de Wollok: https://www.wollok.org/tour/
+Para más información y otras opciones interesantes, podés ver las secciones **Consola** y **Test runner** del sitio oficial de Wollok: https://www.wollok.org/tour/
