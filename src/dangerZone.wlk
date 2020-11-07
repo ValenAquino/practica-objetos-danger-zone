@@ -1,9 +1,10 @@
 class Empleado {
 	var salud = 100
 	const habilidades = []
+	var puesto 
 	
 	method estaIncapacitado() = salud < self.saludCritica()
-	method saludCritica()
+	method saludCritica() = puesto.saludCritica()
 	
 	method puedeUsar(habilidad) = not self.estaIncapacitado() and self.poseeHabilidad(habilidad)
 	
@@ -11,11 +12,7 @@ class Empleado {
 	    
 }
 
-class Espia inherits Empleado {	
-	method saludCritica() = 15 
-}
-
-class EspiaJefe inherits Espia {
+class Jefe inherits Empleado {
 	const subordinados = []
 	override method poseeHabilidad(habilidad) = super(habilidad)
 		or self.algunSubordinadoLaTiene(habilidad)
@@ -23,18 +20,26 @@ class EspiaJefe inherits Espia {
 		subordinados.any { subordinado => subordinado.puedeUsar(habilidad) }
 }
 
-class Oficinista inherits Empleado {
+object puestoEspia {	
+	method saludCritica() = 15 
+}
+
+class PuestoOficinista {
 	var cantEstrellas = 0
 	method saludCritica() = 40 - 5 * cantEstrellas
 }
 
-class OficinistaJefe inherits Oficinista {
-		const subordinados = []
-	override method poseeHabilidad(habilidad) = super(habilidad)
-		or self.algunSubordinadoLaTiene(habilidad)
-	method algunSubordinadoLaTiene(habilidad) = 
-		subordinados.any { subordinado => subordinado.puedeUsar(habilidad) }
-}
+// Antes:
+// ofJefe = new OficinistaJefe()
+
+// Ahora:
+// ofJefe = new Jefe(puesto = new PuestoOficinista())
+
+
+
+
+
+
 
 // empleado.puedeUsar(habilidad)
 // habilidad.puedeSerUsada(empleado) // descartar
