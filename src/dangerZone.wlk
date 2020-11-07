@@ -8,6 +8,21 @@
 // mision.serCumplidaPor(empleado)
 // mision.serCumplidaPor(equipo)
 
+class Equipo {
+	const empleados = []
+	
+	method puedeUsar(habilidad) = 
+		empleados.any({empleado => empleado.puedeUsar(habilidad)})
+		
+	method recibirDanio(cantidad) {
+		empleados.forEach({empleado => empleado.recibirDanio(cantidad / 3)})
+	}
+	
+	method finalizarMision(mision) {
+		empleados.forEach({empleado => empleado.finalizarMision(mision)})
+	}
+}
+
 class Mision {
 	const habilidadesRequeridas = []
 	const peligrosidad
