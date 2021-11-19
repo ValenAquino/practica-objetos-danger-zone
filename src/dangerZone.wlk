@@ -2,7 +2,6 @@ class Empleado {
 	var rol
 	var salud = 100
 	var estrellas
-	
 	const property habilidades = []
 	
 	method salud() = salud
